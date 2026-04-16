@@ -10,7 +10,6 @@ La burocrazia italiana e la gestione manuale delle fatture rallentano gli studi 
 - **Backend:** Python con processamento asincrono (Worker dedicato) per gestire carichi elevati.
 - **Database:** MySQL per la gestione multi-tenant (Studi/Aziende).
 - **Frontend:** Streamlit trasformato in PWA tramite patching personalizzato.
-- **Compliance:** Generazione automatica di file XML standard SDI.
 
 ### ⚙️ Architettura
 Il progetto utilizza un'architettura a coda:
