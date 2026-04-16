@@ -39,3 +39,6 @@ La gestione manuale delle fatture e la burocrazia rallentano drasticamente la pr
 2.  **Queuing:** Il sistema valida il file, genera un `UUID` univoco e inserisce un job nella coda.
 3.  **Processing:** Il `worker.py` rileva il job, chiama l'IA, estrae i metadati e salva il risultato.
 4.  **Finalization:** L'utente revisiona i dati ed esporta il file **XML SDI** pronto per l'invio.
+
+## ⚖️ Disclaimer
+Questo software è una soluzione professionale per l'automazione documentale. L'autore non è responsabile per errori di invio al Sistema di Interscambio (SDI) derivanti da dati sorgente errati o interpretazioni non conformi dell'IA.
