@@ -1,0 +1,8 @@
+streamlit
+google-genai
+mysql-connector-python
+PyMuPDF
+Pillow
+bcrypt
+extra-streamlit-components
+pandas
