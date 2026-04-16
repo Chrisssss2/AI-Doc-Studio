@@ -22,7 +22,4 @@ La gestione manuale delle fatture e dei documenti contabili rappresenta un collo
 * **Asynchronous Worker:** Sistema basato su code di lavoro (`processing_queue`). Un processo worker dedicato gestisce l'elaborazione intensiva dei documenti in background, lasciando la UI fluida e reattiva.
 * **Multi-tenant Ready:** Struttura database SQL scalabile che separa logicamente Studi Commercialisti, Utenti e Aziende gestite.
 * **File Persistence:** Gestione sicura dei file con generazione di nomi univoci (`uuid`) e sanificazione dei nomi file originali per la compatibilità cross-platform.
-
-### 🔌 **Integrazione & Export**
-* **XML SDI Engine:** Generazione automatica di file XML pronti per l'invio al Sistema di Interscambio, con nomenclatura standard (es. `IT[PIVA]_[PROG].xml`).
 * **PWA Transformation:** Grazie a uno script di patching personalizzato (`patch.py`), l'interfaccia Streamlit viene convertita in una **Progressive Web App** con icone custom e modalità offline supportata.
